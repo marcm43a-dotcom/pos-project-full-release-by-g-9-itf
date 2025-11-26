@@ -1,0 +1,57 @@
+.div-item_frame {
+    height: calc(100% - 32px);
+    width: 100%;
+    border-radius: 12px 12px 0px 0px;
+    background: linear-gradient(to bottom, rgb(90, 67, 9, 0.75), rgb(223, 167, 55, 0.75));
+    border: 4px solid rgb(223, 167, 55, 0.75);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+.div-item_image {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+.div-item_id {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(33, 33, 33, 0.75);
+}
+.div-item_status {
+    font-size: 48px;
+    font-weight: bold;
+    color: rgba(33, 33, 33, 0.75);
+}
+.div-item_name {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(33, 33, 33, 0.75);
+}
+.div-item_stock {
+    font-size: 12px;
+    font-weight: bold;
+    color: rgba(33, 33, 33, 0.75);
+}
+.div-item_price {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(222, 222, 222, 0.75);
+
+    height: 32px;
+    width: 100%;
+    border-radius: 0px 0px 12px 12px;
+    background: linear-gradient(to bottom, rgba(84, 58, 100, 0.75), rgba(124, 89, 141, 0.75));
+    border: 4px solid rgba(124, 89, 141, 0.75);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

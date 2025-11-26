@@ -1,0 +1,140 @@
+#div-list {
+    font-size: 14px;
+    font-weight: bold;
+    color: rgba(200, 200, 200, 0.75);
+    /**/
+    height: calc(100% - 196px);
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+    border-left: 4px solid rgba(255, 155, 0, 0.75);
+    border-right: 4px solid rgba(255, 155, 0, 0.75);
+    /**/
+    display: flex;
+    flex-direction: column;
+    /**/
+    padding: 4px;
+    gap: 4px;
+    /**/
+    overflow-x: hidden;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+#div-list::-webkit-scrollbar {
+    display: none;
+}
+#div-view_logs {
+    font-size: 14px;
+    font-weight: bold;
+    color: rgba(200, 200, 200, 0.75);
+    /**/
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+    border-left: 4px solid rgba(255, 155, 0, 0.75);
+    border-right: 4px solid rgba(255, 155, 0, 0.75);
+    /**/
+    display: flex;
+    flex-direction: column;
+    /**/
+    padding: 4px;
+    gap: 4px;
+    /**/
+    overflow-x: hidden;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+#div-view_logs::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+.div-listed_item {
+    height: auto;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    /**/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /**/
+    padding: 4px;
+}
+.div-listed_item_name {
+    height: auto;
+    width: calc(100% - 188px);
+}
+.div-listed_item_add_quantity,
+.div-listed_item_quantity_value,
+.div-listed_item_subtract_quantity {
+    height: 28px;
+    width: 28px;
+    border-radius: 28px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-listed_item_price {
+    height: auto;
+    width: 110px;
+    /**/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /**/
+    padding: 4px;
+}
+.div-listed_item_add_quantity:hover,
+.div-listed_item_subtract_quantity:hover {
+    cursor: pointer;
+}
+
+
+
+
+#div-list_summary {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(200, 200, 200, 0.75);
+
+    height: auto;
+    width: auto;
+    border-radius: 6px;
+    background: rgba(0, 0, 0, 0.75);
+
+    display: flex;
+    justify-content: center;
+    
+    padding: 8px;
+    gap: 48px;
+}
+.div-list_percentage_value {
+    display: flex;
+    flex-direction: column;
+}
+.div-list_amount_value {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+.div-purchase_button {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(33, 33, 33, 0.75);
+
+    height: 48px;
+    width: 100%;
+    background: rgba(255, 155, 0, 0.75);
+    border-radius: 60px;
+}
+.div-purchase_button {
+    cursor: pointer;
+}

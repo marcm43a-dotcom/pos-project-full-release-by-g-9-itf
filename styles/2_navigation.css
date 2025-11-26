@@ -1,0 +1,46 @@
+.div-set_discount,
+.div-set_tax,
+.div-add_item,
+.div-edit_item,
+.div-remove_item,
+.div-logs,
+.div-logout,
+.div-settings {
+    height: 32px;
+    width: 32px;
+    border-radius: 0px 0px 0px 16px;
+}
+.div-set_discount {
+    background: url("../assets/icons/set_discount.png") center/cover;
+}
+.div-set_tax {
+    background: url("../assets/icons/set_tax.png") center/cover;
+}
+.div-add_item {
+    background: url("../assets/icons/add_item.png") center/cover;
+}
+.div-edit_item {
+    background: url("../assets/icons/edit_item.png") center/cover;
+}
+.div-remove_item {
+    background: url("../assets/icons/remove_item.png") center/cover;
+}
+.div-logs {
+    background: url("../assets/icons/logs.png") center/cover;
+}
+.div-logout {
+    background: url("../assets/icons/logout.png") center/cover;
+}
+.div-settings {
+    background: url("../assets/icons/settings.png") center/cover;
+}
+.div-set_discount:hover,
+.div-set_tax:hover,
+.div-add_item:hover,
+.div-edit_item:hover,
+.div-remove_item:hover,
+.div-logs:hover,
+.div-logout:hover,
+.div-settings:hover {
+    cursor: pointer;
+}
